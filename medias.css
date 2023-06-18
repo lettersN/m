@@ -1,0 +1,59 @@
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+        height: auto;
+        grid-template-columns: 100%;
+    }
+    .view {
+        justify-content: baseline;
+        padding: 30px 20px;
+    }
+    .bar {
+        flex-direction: row;
+        position: fixed;
+        background: rgb(201, 201, 201);
+        bottom: 10px;
+        height: 20px;
+        padding: 25px 0;
+        border-radius: 20px;
+        width: 50%;
+        column-gap: 25px;
+        
+    }
+    .view-picture {
+        grid-template-columns: 100%;
+        margin-bottom: 270px;
+    }
+    .a {
+        display: flex;
+        justify-content: center;
+    }
+    .view-picture-img {
+        height: 250px;
+    }
+    .bottom-vol {
+        left: 0px;
+        top: 20px;
+    }
+    .view-picture-title {
+        font-size: 25px;
+    }
+    .view-related-cards {
+        grid-template-columns: 48% 48%;
+        grid-gap: 30px 15px;
+        justify-content: center;
+    }
+    .view-populars-card-img {
+        height: 150px;
+    }
+    .view-picture-body {
+        padding: 20px 0 0 0;
+    }
+    .view-bar-user {
+        display: none;
+    }
+    .view-bar {
+        padding-right: 0;
+        padding-top: 0;
+    }
+}
